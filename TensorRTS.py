@@ -71,7 +71,7 @@ LinearRTS, the first epoch of TensorRTS, is intended to be the simplest RTS game
         if self.enable_printouts:
             print(f"TP({tensor_index})=TP({self.tensors[tensor_index]})={f}")
         return f
-
+     //test
     def observe(self) -> Observation:
         done = self.tensors[0][0] >= self.tensors[1][0]
         if done:
