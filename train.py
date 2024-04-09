@@ -8,6 +8,7 @@ from TensorRTS import TensorRTS
 
 import hyperstate
 
+//test training
 @hyperstate.stateful_command(TrainConfig, State, init_train_state)
 def main(state_manager: hyperstate.StateManager) -> None:
     train(state_manager=state_manager, env=TensorRTS)
